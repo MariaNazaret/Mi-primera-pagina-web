@@ -39,11 +39,6 @@ p{
     padding: 10px;
 }
 
-@media (max-width:60px) {
-    .column{
-        flex: 100%;
-    }
-}
 
 .container-nav {
     display: flex;
@@ -99,14 +94,7 @@ p{
     justify-content: center;
   }
 
-  .video.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    padding: 50px;
-  }
+  
   footer{
     display: flex;
     flex-direction: column;
@@ -116,7 +104,8 @@ p{
     min-height: 200px;
     text-align: center;
   }
-
+  
+  
   @media (max-width: 768px) {
     .column {
       flex: 100%;
@@ -140,22 +129,22 @@ p{
     }
    
     .nav-links.nav-links-responsive {
-        position: absolute;
-        display: flex;
-        background-color: rgba(235, 202, 226, 0.95);
-        width: 100%;
-        height: 100%;
-        top: 70px;
-        left: 0;
-        flex-direction: column;
-        padding-top: 200px;
-        align-items: center;
-        gap:70px;
-        font-size: 40px;
-    
-    
-      }
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
     }
+  }
   
     .img.container{
       flex-direction: column;
@@ -169,3 +158,12 @@ p{
     iframe.video{
       max-width:90% ;
     }
+    
+    
+    .video{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px
+    }
+    
