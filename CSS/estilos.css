@@ -72,7 +72,7 @@ p{
   
   
   a {
-    color: rgb(15, 15, 15);
+    color: rgb(245, 6, 97);
     text-decoration:none;
   }
   
@@ -131,7 +131,7 @@ p{
     .nav-links.nav-links-responsive {
       position: absolute;
       display: flex;
-      background-color: rgba(20,20,20,0.95);
+      background-color: rgba(235, 216, 231, 0.95);
       width: 100%;
       height: 100%;
       top: 70px;
